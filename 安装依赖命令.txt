@@ -1,4 +1,4 @@
-1.安装第三方库pysrt_moviepy：pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pysrt==1.1.2 moviepy==1.0.3
+1.安装第三方库：pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pysrt==1.1.2 moviepy==1.0.3
 
 2.python 3.10.10环境开发
 
