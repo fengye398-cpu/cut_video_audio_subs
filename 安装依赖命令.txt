@@ -1,0 +1,31 @@
+1.安装第三方库pysrt_moviepy：pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pysrt==1.1.2 moviepy==1.0.3
+
+2.python 3.10.10环境开发
+
+3.安装打包exe的工具库:
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pyinstaller
+
+4.打包命令：pyinstaller --onefile --noconsole --icon=cut.ico --add-data "cut.ico;." --hidden-import=pysrt --hidden-import=chardet cut_video_audio_subs_v0.3.py
+
+5.项目文件根目录下输入CMD创建虚拟环境：python -m venv .venv
+
+6.在项目文件根目录下输入CMD激活虚拟环境中：.venv\Scripts\activate
+
+7.卸载第三方库：pip uninstall pysrt==1.1.2 moviepy==1.0.3
+
+8.最新版本pip更新命令：python -m pip install --upgrade pip -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+9.教程参考地址：
+https://www.zhihu.com/question/463332914/answer/3207951756
+https://zhuanlan.zhihu.com/p/1908630076704159010
+
+10.查看python版本
+python --version
+
+11.查看所有可用的 Python 版本
+py -0
+
+12. AI提示词：1. 前端界面 (HTML + CSS + JavaScript)
+      2. 后端实现 (Python + Flask)写一个批量或单个视频转音频
+
+12.在VSCod中添加解释器路径：D:\桌面\subtitle_tools\cut_video_audio_subs\.venv\Scripts\pip3.10.exe
